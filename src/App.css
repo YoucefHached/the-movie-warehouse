@@ -189,8 +189,15 @@ a.active::before {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: 0.5s ease-in-out;
 }
 
+/* .movie-title:hover {
+  white-space: hidden;
+  overflow: visible;
+  text-overflow: initial;
+  font-size: 10px;
+} */
 .date {
   font-size: 10px;
   color: #4e5456;
